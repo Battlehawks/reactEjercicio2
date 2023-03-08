@@ -6,7 +6,7 @@ const Video = ({title,dateAdded,channel,thumbnail,description}) => {
         <div><span>Channel: </span><span>{channel}</span></div>    
         <div><img src={thumbnail} alt=""></img></div>    
         <div><p>{description}</p></div>    
-      </div>  
+      </div>
     );
   }
   
