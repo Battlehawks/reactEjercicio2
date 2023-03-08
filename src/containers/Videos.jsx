@@ -2,7 +2,7 @@ import Video from '../components/Video';
 
 const Videos = () => {
     return (
-      <div>
+      <div class="video-container">
         <Video
           title="Rod Stewart - Young Turks (Official Video)"
           dateAdded="2009-10-29T21:26:05Z"

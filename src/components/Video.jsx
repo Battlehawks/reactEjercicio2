@@ -1,11 +1,11 @@
 const Video = ({title,dateAdded,channel,thumbnail,description}) => {
     return (
       <div>
-        <div><span>Titulo: </span><span>{title}</span></div>    
-        <div><span>DateAdd: </span><span>{dateAdded}</span></div>    
-        <div><span>Channel: </span><span>{channel}</span></div>    
-        <div><img src={thumbnail} alt=""></img></div>    
-        <div><p>{description}</p></div>    
+        <div class="video-info"><span>Titulo: </span><span>{title}</span></div>    
+        <div class="video-info"><span>DateAdd: </span><span>{dateAdded}</span></div>    
+        <div class="video-info"><span>Channel: </span><span>{channel}</span></div>    
+        <div class="video-image"><img src={thumbnail} alt=""></img></div>    
+        <div class="video-info"><p>{description}</p></div>    
       </div>
     );
   }
